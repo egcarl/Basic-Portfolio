@@ -125,3 +125,7 @@ input {
     width:90%;
     margin-bottom: 2em;
 }
+
+.comments {
+    height: 15em;
+}
