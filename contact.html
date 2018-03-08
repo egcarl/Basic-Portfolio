@@ -5,49 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    <link rel="stylesheet" rel="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" rel="text/css" href="assets/css/style.css"
 </head>
+
 <body>
-    <header>
-        <h1 id="YourName">Eric Carl</h1></div>
-        <ul id="headerlist">
-            <li><a href="index.html"><p>About</p></a></li>
-            <li><a href="portfolio.html"><p>Portfolio</p></a></li>
-            <li><a href="contact.html"><p>Contact</p></a></li>
-        </ul>
-    </header>
 
-    <div class="clearfix">
-        <section>
-            <h2 class="contenttitle">Contact</h2>
+        <nav class="navbar navbar-default">
+                <div class="container header">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#" id="YourName">Eric Carl</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
 
-            <form>
-                    <p>First name:</p><br>
-                    <input type="text" name="firstname"><br>
-                    <p>E-mail:</p><br>
-                    <input type="text" name="email">
-                    <p>Comments:</p><br>
-                    <input type="text" name="comments" class="comments">
-                    <input type="submit" value="Submit">
-            </form>
-            
-        </section>
+    <div class="container">
+        <div class ="row">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 aside">
+                    <div class="column_content">
+                        <h2 class="contenttitle">Contact</h2>
+                        <form>
+                        <p>First name:</p>
+                        <input type="text" name="firstname">
+                        <p>E-mail:</p>
+                        <input type="text" name="email">
+                        <p>Comments:</p>
+                        <input type="text" name="comments" class="comments">
+                        <input type="submit" value="Submit">
+                        </form>
+                    </div>                                        
+                </div>
+                <div class = "col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <div class="aside">
+                        <h3 class="contenttitle">Connect with Me</h3>
+                        <div class="socialmedia_images">                                              
+                            <a href="https://www.linkedin.com/in/ercarl/"><img src="assets/images/linkedin.png" alt="Linkedin" style="width: 60px;height:60px;border:0"></a></li>
+                            <a href="https://www.linkedin.com/in/ercarl/"><img src="assets/images/linkedin.png" alt="Linkedin" style="width: 60px;height:60px;border:0"></a></li>
+                            <a href="https://www.linkedin.com/in/ercarl/"><img src="assets/images/linkedin.png" alt="Linkedin" style="width: 60px;height:60px;border:0"></a></li>
+                                        
+                        </div>
+                        
+                    </div>                                        
+                </div>
+            </div>
+        </div>
 
-        <aside>
-            <h3 class="contenttitle" id="sidebar">Connect with Me</h3>
-            
-            <ul id="socialmedia">
-                    <li><a href="https://www.linkedin.com/in/ercarl/">
-                        <img src="assets/images/linkedin.png" alt="Linkedin" style="width: 60px;height:60px;border:0"></a></li>
-                    <li><a href="https://stackoverflow.com/users/9170127/egcarl?tab=profile">
-                            <img src="assets/images/stackoverflow.png" alt="Stack Overflow" style="width: 60px;height:60px;border:0"></a></li>
-                    <li><a href="https://www.linkedin.com/in/ercarl/">
-                        <img src="assets/images/linkedin.png" alt="Linkedin" style="width: 60px;height:60px;border:0"></a></li>
-                </ul>
 
-        </aside>
-    </div>
+
+
+ 
 
     <footer>
         <p id="copyright">Copyright © Eric Carl 2018</p>
